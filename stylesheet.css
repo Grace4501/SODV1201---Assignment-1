@@ -1,0 +1,120 @@
+* {
+    background-color: rgb(248, 240, 229);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0,0,0;
+    text-align: center;
+}
+
+#header > section {
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    padding: 30px 10px 5px 10px;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    text-align: unset;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 30px 0px 10px 0px;
+    background-color: #7f7667;
+    font-size: medium;
+}
+
+#header .current {
+    background-image: linear-gradient(#7f7667, #c0b6a6);
+}
+
+#header a:hover {
+    background-image: linear-gradient(#7f7667, #c0b6a6);
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    padding: 10px 15px 10px 15px;
+    background-color: #7f7667;
+    color: rgb(248, 240, 229);
+
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    padding-bottom: 50px;
+}
+
+h3 {
+    border-top: #382e1e solid 2px;
+    padding-top: 30px;;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: groove #000000;
+    border-width: 10px;
+    max-height: 300px;
+}
+
+p {
+    text-align: center;
+}
+
+label {
+    font-size:x-small;
+    text-align: center;
+}
+
+#footer
+{
+    font-size: small;
+    text-align: right;
+    margin-top: 100px;
+}
+
+#footer > p
+{
+    display: inline-block;
+    font-size: xx-small;
+}
+
+input {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+#mtgbody {
+    border-bottom: solid black 2px;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th.clicked {
+    text-decoration: underline;
+    cursor: pointer;
+}

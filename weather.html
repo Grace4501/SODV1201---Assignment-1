@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id="header">
+        <section>
+            <h1>Weather</h1>
+
+            <ul>
+                <li><a href="index.html">Profile</a></li>
+                <li><a href="markToGrade.html">Mark to Grade</a></li>
+                <li><a href="weather.html" class="current">Weather</a></li>
+                <li><a href="staff.html">Staff</a></li>            </ul>
+            </ul>
+        </section>
+    </div>
+    <div id="mtgbody">
+        <input type="number" id="fahrenheit" placeholder="Enter Temperature (°F)">
+        <br>
+        <button id="btn" onclick="convertTemp()">Convert</button>
+        <br>
+        <p id="convertedTemp"></p>
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+</html>

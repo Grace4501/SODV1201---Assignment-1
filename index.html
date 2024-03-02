@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id="header">
+        <section>
+            <h1>My Profile Page</h1>
+
+            <ul>
+                <li><a href="index.html" class="current">Profile</a></li>
+                <li><a href="markToGrade.html">Mark to Grade</a></li>
+                <li><a href="weather.html">Weather</a></li>
+                <li><a href="staff.html">Staff</a></li>            </ul>
+        </section>
+    </div>
+    
+    <div id="body">
+        <h3>A Little about Me</h3>
+        <p>To learn about me, I'll start with the fact that I have grown up in Canada and have many different hobbies including: drawing, playing guitar, writing, reading and more recently crochet. I have 2 bestfriends and an older brother. I also have the cutest cat in the world who is really old.</p>
+        
+        <h3>Future Plans</h3>
+        <p>I want to become a video game developer, who works in a team and creates games focusing on either animals or survival. I also at some point want to live in Europe, I'm not sure where yet, but I really love the look of the UK. I mean the sites are beautiful, just look at this picture of Scotland.</p>
+        <div id="img">
+            <img src="Eilean-Donan-Castle-Kyle-of-Lochalsh.jpg">
+            <label id="imgName"></label>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <p>2024-02-29</p>
+        <p>Copyright 2024. Grace Andrews. All rights reserved.</p>
+    </div>
+    <script>
+        setTimeout(() => {
+            console.log("label delayed");
+            imgNameDisplay()
+        }, 10000);
+
+        function imgNameDisplay()
+        {
+            var imgName = document.getElementById("imgName");
+
+            imgName.innerHTML="Eilean Donan Castle, Kyle of Lochalsh. Credit: Shabaz Majeed, Scotland in Photographs"
+        }
+    </script>
+</body>
+</html>
